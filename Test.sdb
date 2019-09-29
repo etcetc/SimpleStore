@@ -1,0 +1,15 @@
+{
+  "string": "This is a string",
+  "int": 44,
+  "float": 52.22,
+  "obj": {
+    "a": 10,
+    "b": 20
+  },
+  "array": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

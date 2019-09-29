@@ -1,0 +1,15 @@
+{
+  "name": "simplestore",
+  "version": "0.0.1",
+  "description": "A very simple module for storing basic data, intended for applications that have very limited need for persistent statefulness",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Farhad Farzaneh",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
