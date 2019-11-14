@@ -13,7 +13,7 @@ describe('Single domain tests', () => {
     expect(db.items).to.eql({})
   })
 
-  it('should save vlaues', () => {
+  it('should save values', () => {
     db.set('string','This is a string')
     db.set('int',44)
     db.set('float',52.22)
@@ -30,6 +30,9 @@ describe('Single domain tests', () => {
 
     expect(db.has('foo')).to.be.false;
     expect(db.get('foo')).to.be.undefined;
+
+    db.delete('int')
+    expect(db.get('int')).to.be.undefined;
   })
 
 })

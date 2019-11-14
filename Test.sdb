@@ -1,6 +1,5 @@
 {
   "string": "This is a string",
-  "int": 44,
   "float": 52.22,
   "obj": {
     "a": 10,
