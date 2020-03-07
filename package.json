@@ -1,6 +1,6 @@
 {
   "name": "simplestore",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A very simple module for storing basic data, intended for applications that have very limited need for persistent statefulness",
   "main": "index.js",
   "scripts": {

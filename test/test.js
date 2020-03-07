@@ -30,6 +30,7 @@ describe('Single domain tests', () => {
 
     expect(db.has('foo')).to.be.false;
     expect(db.get('foo')).to.be.undefined;
+    expect(db.keys()).to.have.length(5)
 
     db.delete('int')
     expect(db.get('int')).to.be.undefined;
